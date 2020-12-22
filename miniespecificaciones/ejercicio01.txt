@@ -1,13 +1,15 @@
 1.  Inicio
 2.  funcion principal()
-3.    variable, x(20)[{a-z}, {BS}]
-4.    variable <-- obtenerMensaje() 
+3.    variable, x(20)[{A-Z}, {a-z}, {BS}]
+4.    variable <-- obtenerMensaje() // Hola Mundo
 5.    Escribir variable
-5.  fin funcion principal 
-6. // se define un método o función
-7.  funcion obtenerMensaje()
-8.    v, x(20)[{a-z}, {BS}]
-9.    v <-- "Hola Mundo"
-10.   retorna v
-11. fin funcion obtenerMensaje
-12. Fin
+6.  fin funcion principal 
+7. // se define un método o función
+8.  funcion obtenerMensaje() : x
+9.    v, x(20)[{a-z}, {BS}]
+10.   y, x(20)[{a-z}, {BS}]
+11.    v <-- "Hola Mundo"
+12,    y <-- "desde ecuador"
+13.   retorna v + y
+14. fin funcion obtenerMensaje
+15. Fin
